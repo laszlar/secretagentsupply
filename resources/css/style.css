@@ -1,8 +1,9 @@
-﻿body {
-	font-family: Helvetica;
+﻿html {
 	font-size: 18px;
-	margin: 0;
-	background-color: black;
+}
+
+body {
+	font-family: Helvetica;
 }
 
 div {
@@ -16,10 +17,11 @@ header {
 .header-content {
 	display: flex;
 	align-items: center;
-	margin: 0.66rem;
+	padding: 12px 0px 12px 0.5rem;
 }
 .header-content img {
 	height: 1.5rem;
+	padding-right: 1rem;
 }
 
 .header-content span {
@@ -31,13 +33,22 @@ header {
 
 .top-section {
 	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
-	height: 25rem;
+	height: 25em;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-posiition: center;
 }
 
-.new-arrivals-info {
-	background-color: black;
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
 
+.new-arrivals-info {
+	position: relative;
+	background-color: black;
+	z-index: 5;
+	color: white;
+	padding-top: 9rem;
+	width: 20rem;
 }
