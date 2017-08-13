@@ -33,10 +33,9 @@ header {
 
 .top-section {
 	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
-	height: 25em;
+	height: 25rem;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-posiition: center;
 }
 
 .container {
@@ -45,10 +44,21 @@ header {
 }
 
 .new-arrivals-info {
-	position: relative;
 	background-color: black;
-	z-index: 5;
 	color: white;
-	padding-top: 9rem;
+	padding: 2rem 3rem;
+	position: relative;
+	top: 9rem;
 	width: 20rem;
+}
+
+.new-arrivals-info h2 {
+	margin: 0.25rem 0;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.new-arrivals-info h4 {
+	font-size: 1rem;
+	font-weright: bold;
 }
