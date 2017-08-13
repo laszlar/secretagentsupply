@@ -10,6 +10,8 @@ div {
 	display: block;
 }
 
+/*///Header///*/
+
 header {
 	background-color: black;
 }
@@ -18,6 +20,8 @@ header {
 	display: flex;
 	align-items: center;
 	padding: 12px 0px 12px 0.5rem;
+	max-width: 960px;
+	margin: 0 auto;
 }
 .header-content img {
 	height: 1.5rem;
@@ -29,6 +33,7 @@ header {
 	font-size: 1rem;
 }
 
+/*///Main Body///*/
 /*Main Body*/
 
 .top-section {
@@ -36,6 +41,7 @@ header {
 	height: 25rem;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .container {
@@ -62,3 +68,95 @@ header {
 	font-size: 1rem;
 	font-weright: bold;
 }
+
+/*Middle Section*/
+
+.mid-section {
+	background-color: firebrick;
+	width: 100%;
+}
+
+.mid-section-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.mid-section-container span {
+	padding: 0.75rem 0;
+	color: white;
+	font-size: 1rem;
+}
+
+/*///Bottom-Section////*/
+/*Mid-Bottom-Section*/
+
+.mid-bottom-section {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.gadgets {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 3rem 0 0 0;
+}
+
+.products {
+	width: 30%;
+}
+
+.pen-image {
+	border: 4px solid black;
+	padding: 2rem 0;
+	height: 9rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pen-image img {
+	max-width: 8rem;
+}
+
+.watch-image {
+	border: 4px solid black;
+	padding: 2rem 0;
+	height: 9rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.watch-image img {
+	max-width: 8rem;
+}
+
+.glasses-image {
+	border: 4px solid black;
+	padding: 2rem 0;
+	height: 9rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.glasses-image img {
+	max-width: 8rem;
+}
+
+.description {
+	display: block;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+/*///Bottom of Main///*/
+
+
+
