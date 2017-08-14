@@ -111,7 +111,7 @@ header {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	margin: 3rem 0 0 0;
+	margin-top: 3rem;
 }
 
 .products {
@@ -166,6 +166,14 @@ header {
 }
 
 .description-glasses {
+	display: block;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+.description-watch {
 	display: block;
 	background-color: black;
 	color: white;
@@ -235,6 +243,14 @@ footer {
 
 	.products {
 		width: 47%;
+	}
+
+	.watch-image {
+		margin-left: 10rem;
+	}
+
+	.description-watch {
+		margin-left: 10rem;
 	}
 
 	.products .glasses-image {
