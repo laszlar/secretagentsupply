@@ -231,6 +231,7 @@ footer {
 }
 
 /*///Media Query///*/
+/*Tablet size*/
 
 @media only screen and (max-width: 1024px) {
 	.mobile-section-container {
@@ -245,14 +246,6 @@ footer {
 		width: 47%;
 	}
 
-	.watch-image {
-		margin-left: 10rem;
-	}
-
-	.description-watch {
-		margin-left: 10rem;
-	}
-
 	.products .glasses-image {
 		display: none;
 	}
@@ -265,3 +258,63 @@ footer {
 		display: none;
 	}
 }
+
+/*Mobile*/
+
+@media only screen and (max-width: 470px) {
+	.top-section {
+		height: 15rem;
+	}
+
+	.new-arrivals-info {
+		padding: 1rem 2rem;
+		width: 100%;
+		top: 10rem;
+	}
+
+	.new-arrivals-info h2 {
+		font-size: 1rem;
+		font-weight: bold;
+	}
+
+	.new-arrivals-info h4 {
+		font-size: 0.77rem;
+		font-weight: bold;
+	}
+
+	.gadgets {
+		justify-content: center;
+	}
+
+	.watch-image {
+		display: none;
+	}
+
+	.description-watch {
+		display: none;
+	}
+
+	.products {
+		width: 90%;
+	}
+
+	.location-info {
+		width: 90%;
+		margin-bottom: 0.5rem;
+	}
+
+	.hours-info {
+		width: 90%;
+	}
+
+	.business-info {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.copyright {
+		display: flex;
+		justify-content: center;
+	}
+}
+
